@@ -6,6 +6,8 @@ server/node_modules/
 # Build artifacts
 dist/
 client/dist/
+.vite/
+client/.vite/
 
 # Environment files
 .env
