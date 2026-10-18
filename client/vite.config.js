@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/document-verification/',
+  base: '/document-/',
   server: {
     proxy: {
       '/api': 'http://localhost:5000',
